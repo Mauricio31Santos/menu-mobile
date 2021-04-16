@@ -1,8 +1,13 @@
 .menu{
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
-    transform: translateX(-800px);
+    transform: translateX(-1400px);
+    transition: transform 200ms linear;
+}
+.menu_open{
+    transform: translateX(0);
 }
 .menu-item{
     border-bottom: 1px solid rgba(90, 86, 86, 0.8);
@@ -15,4 +20,8 @@
     text-transform: uppercase;
     font-size: 12px;
 
+}
+
+.menu-item-action:hover{
+    color: blueviolet;
 }
