@@ -1,0 +1,18 @@
+.menu{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transform: translateX(-800px);
+}
+.menu-item{
+    border-bottom: 1px solid rgba(90, 86, 86, 0.8);
+    padding: 20px 15px;
+}
+
+.menu-item-action{
+    color: rgb(90, 86, 86);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
